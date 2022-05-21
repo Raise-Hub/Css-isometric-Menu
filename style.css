@@ -8,13 +8,11 @@
 }
 body
 {
-    display: flex;
-    /* padding-left: 100px;
-    padding-top: 100px; */
+    display: list-item;
+    padding-left: 100px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background: #434750; */
 }
 .menu-one
 {
@@ -168,4 +166,86 @@ background-color: #1f5378;
 .menu-two .list-two::after
 {
     box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+}
+
+/* MENU TRHEE */
+
+.btn
+{
+    text-transform: uppercase;
+    border:none;
+    /* padding-left: 1000; */
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn
+{
+    transform: skewX(-10deg);
+}
+.btn:hover
+{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/* Button green */
+
+.btn-green
+{
+    color:#fff;
+    box-shadow:0 5px 0 #006000;
+}
+
+.btn-green:hover
+{
+    background:#006000;
+    box-shadow:0 5px 0 #003f00;
+}
+
+.btn-green:active
+{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+}
+
+/* Button blue */
+
+.btn-blue
+{
+    color:#fff;
+    box-shadow:0 5px 0 #0e5886;
+}
+.btn-blue:hover
+{
+    background:#006000;
+    box-shadow:0 5px 0 #103550;
+}
+.btn-blue:active
+{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+}
+
+/* Button red */
+
+.btn-red
+{
+    color:#fff;
+    box-shadow:0 5px 0 #860e0e;
+}
+.btn-red:hover
+{
+    background:#006000;
+    box-shadow:0 5px 0 #501010;
+}
+.btn-red:active
+{
+    position:relative;
+    top:5px;
+    box-shadow:none;
 }
